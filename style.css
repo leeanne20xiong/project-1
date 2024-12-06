@@ -5,7 +5,7 @@ body {
 
   display: grid;
   grid-template-columns: 2fr 4fr;
-  grid-template-rows: 50px 1fr 50px;
+  grid-template-rows: 100px 1fr 100px;
 }
 
 nav {
@@ -14,7 +14,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 
-  height: 50px;
+  height: 100px;
   background-color: forestgreen;
 }
 
@@ -35,6 +35,10 @@ aside {
 
 main {
   background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: safe;
+  align-items: center;
 }
 
 footer {
