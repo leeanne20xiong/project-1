@@ -1,4 +1,45 @@
 body {
   margin: 0;
   box-sizing: border-box;
+  height: 100vh;
+
+  display: grid;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100px;
+  background-color: forestgreen;
+}
+
+section {
+  display: flex;
+}
+
+nav div {
+  margin: 10px;
+  font-size: 30;
+  color: red;
+  font-weight: bold;
+}
+
+aside {
+  background-color: red;
+}
+
+main {
+  background-color: bisque;
+}
+
+footer {
+  background-color: gold;
+}
+.flex-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
