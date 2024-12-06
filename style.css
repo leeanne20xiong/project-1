@@ -4,6 +4,8 @@ body {
   height: 100vh;
 
   display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: 50px 1fr 50px;
 }
 
 nav {
@@ -12,7 +14,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 
-  height: 100px;
+  height: 50px;
   background-color: forestgreen;
 }
 
@@ -21,9 +23,9 @@ section {
 }
 
 nav div {
-  margin: 10px;
+  margin: 15px;
   font-size: 30;
-  color: red;
+  color: black;
   font-weight: bold;
 }
 
@@ -42,4 +44,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flex-ctr {
+  font-weight: bold;
+  font-size: 30;
+}
+nav,
+footer {
+  grid-column: span 2;
 }
