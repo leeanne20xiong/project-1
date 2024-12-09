@@ -37,7 +37,7 @@ main {
   background-color: bisque;
   display: flex;
   flex-direction: column;
-  justify-content: safe;
+  justify-content: center;
   align-items: center;
 }
 
