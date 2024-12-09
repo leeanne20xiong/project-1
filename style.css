@@ -37,9 +37,16 @@ main {
   background-color: bisque;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: safe;
   align-items: center;
-  border-radius: 10px;
+}
+
+aside {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: safe;
+  align-items: center;
 }
 
 footer {
