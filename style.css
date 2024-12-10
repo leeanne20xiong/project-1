@@ -29,10 +29,6 @@ nav div {
   font-weight: bold;
 }
 
-aside {
-  background-color: red;
-}
-
 main {
   background-color: bisque;
   display: flex;
@@ -52,17 +48,14 @@ aside {
 footer {
   background-color: gold;
 }
-.flex-ctr {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.flex-ctr {
-  font-weight: bold;
-  font-size: 30;
-}
 nav,
 footer {
   grid-column: span 2;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
