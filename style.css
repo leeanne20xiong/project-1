@@ -59,3 +59,14 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.image-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+  margin: 35pt;
+  font-weight: bolder
+  font-family: fantasy;
+}
